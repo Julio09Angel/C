@@ -4,7 +4,8 @@ main()
 {
 	int c;
 	c = getchar();
-	printf("%d\n", getchar() != EOF);
+	printf("getchar\nvalue");
+	printf("%4d\n", getchar() != EOF);
 	
 	return 0;
 }
